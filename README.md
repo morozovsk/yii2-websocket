@@ -11,32 +11,8 @@ return [
         'websocket' => [
             'class' => 'morozovsk\websocket\Connection',
             'servers' => [
-                'chat' => [
-                    'class' => 'morozovsk\websocket\samples\ChatWebsocketDaemonHandler',
-                    'pid' => '/tmp/websocket_chat.pid',
-                    'websocket' => 'tcp://127.0.0.1:8000',
-                    //'localsocket' => 'tcp://127.0.0.1:8010',
-                    //'master' => 'tcp://127.0.0.1:8020',
-                    //'eventDriver' => 'event'
-                ],
-                'chat2master' => [
-                    'class' => 'morozovsk\websocket\samples\Chat2WebsocketMasterHandler',
-                    'pid' => '/tmp/websocket_chat2_master.pid',
-                    'websocket' => 'tcp://127.0.0.1:8011',
-                    'localsocket' => 'tcp://127.0.0.1:8010',
-                    //'master' => 'tcp://127.0.0.1:8020',
-                    //'eventDriver' => 'event'
-                ],
-                'chat2worker' => [
-                    'class' => 'morozovsk\websocket\samples\Chat2WebsocketWorkerHandler',
-                    'pid' => '/tmp/websocket_chat2_worker.pid',
-                    'websocket' => 'tcp://127.0.0.1:8001',
-                    //'localsocket' => 'tcp://127.0.0.1:8010',
-                    'master' => 'tcp://127.0.0.1:8010',//connect to master
-                    //'eventDriver' => 'event'
-                ],
                 'chat3' => [
-                    'class' => 'morozovsk\websocket\samples\Chat3WebsocketDaemonHandler',
+                    'class' => 'morozovsk\websocket\examples\chat3\Chat3WebsocketDaemonHandler',
                     'pid' => '/tmp/websocket_chat.pid',
                     'websocket' => 'tcp://127.0.0.1:8004',
                     'localsocket' => 'tcp://127.0.0.1:8010',
