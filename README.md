@@ -9,7 +9,7 @@ return [
 
     'components' => [
         'websocket' => [
-            'class' => 'morozovsk\websocket\Component',
+            'class' => 'morozovsk\websocket\Connection',
             'servers' => [
                 'chat' => [
                     'class' => 'morozovsk\websocket\samples\ChatWebsocketDaemonHandler',
