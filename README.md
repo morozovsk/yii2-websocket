@@ -27,7 +27,7 @@ return [
 
     // ...
     'controllerMap' => [
-        'websocket' => 'morozovsk\websocket\console\controllers\MigrateController'
+        'websocket' => 'morozovsk\yii2websocket\console\controllers\WebsocketController'
     ],
 ];
 
