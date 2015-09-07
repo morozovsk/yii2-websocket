@@ -1,4 +1,6 @@
-websocket extension for Simple websocket server on php https://github.com/morozovsk/websocket.
+Websocket extension for simple websocket server on php https://github.com/morozovsk/websocket.
+
+"composer require morozovsk/yii2-websocket"
 
 Configuration:
 
