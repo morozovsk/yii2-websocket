@@ -11,7 +11,7 @@ return [
 
     'components' => [
         'websocket' => [
-            'class' => 'morozovsk\websocket\Connection',
+            'class' => 'morozovsk\yii2websocket\Connection',
             'servers' => [
                 'chat3' => [
                     'class' => 'morozovsk\websocket\examples\chat3\Chat3WebsocketDaemonHandler',
