@@ -3,7 +3,7 @@
     "type": "yii2-extension",
     "description": "simple php websocket server with examples and demo: simple chat (single daemon) - http://sharoid.ru/chat.html , pro chat (master + worker) - http://sharoid.ru/chat2.html , simple game - http://sharoid.ru/game.html",
     "keywords": ["websocket", "server", "examle", "demo", "chat", "game", "socket_select", "event", "libevent", "yii", "laravel"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "homepage": "http://sharoid.ru/game.html",
     "authors": [
